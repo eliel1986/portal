@@ -2,13 +2,8 @@ import styled from 'styled-components';
 
 export const Header = styled.ul`
     display: flex;
+    justify-content: center;
     list-style: none;
-    width: 90vw;
-    border: solid 1px black;
-    margin: auto;
-    margin-top: 1rem;
-
-    li {
-        margin-right: 1em;
-    }
+    margin-top: 10px;
+    margin-bottom: 10px;
 `;

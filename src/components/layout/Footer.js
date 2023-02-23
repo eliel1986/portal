@@ -1,7 +1,13 @@
+import { Foot } from './stylesa.js'
+
 export function Footer() {
     return (
-        <footer>
-            <h1>Eliel</h1>
-        </footer>
+        <Foot>
+          
+                <h1>Eliel</h1>
+           
+
+        </Foot>
+
     );
 }
