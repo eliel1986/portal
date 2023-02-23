@@ -1,4 +1,4 @@
-import { Foot } from './stylesa.js'
+import { Foot } from './styles.js'
 
 export function Footer() {
     return (

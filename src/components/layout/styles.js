@@ -7,3 +7,7 @@ export const Header = styled.ul`
     margin-top: 10px;
     margin-bottom: 10px;
 `;
+
+export const Foot = styled.h1`
+    color: blue;
+`;
