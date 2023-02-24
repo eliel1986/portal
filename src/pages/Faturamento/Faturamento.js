@@ -1,9 +1,11 @@
 export function Faturamento() {
     return (
-      
-      <div>
-        <h1>teste</h1>
-      </div>
+      <form>
+        <div>
+            <p>Densidade de origem</p>
+            <input type="text" id="dens_orig" placeholder="0.000"></input>
+        </div>
+      </form>
        
        /* <form>
             <p>Densidade origem</p>
