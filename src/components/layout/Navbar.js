@@ -9,7 +9,7 @@ export function Navbar() {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/faturamento"><Faturamento /></Link>
+                    <Link to="/faturamento">Faturamento</Link>
                 </li>
                 <li>
                     <Link to="/imc">IMC</Link>
