@@ -4,7 +4,6 @@ import { Header } from './styles.js'
 export function Navbar() {
     return (
         <Header>
-            <ul>
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -14,7 +13,6 @@ export function Navbar() {
                 <li>
                     <Link to="/imc">IMC</Link>
                 </li>
-            </ul>
         </Header>
     );
 }

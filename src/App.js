@@ -4,11 +4,13 @@ import { Faturamento } from "./pages/Faturamento/Faturamento";
 import { Imc } from "./pages/IMC/Imc";
 import { Navbar } from "./components/layout/Navbar";
 import { Footer } from "./components/layout/Footer";
+import { Main } from "./components/layout/styles";
 
 export function App() {
   return (
     <Router>
       <Navbar />
+      <Main>
       <Switch>
         <Route exact path="/">
           <Home />
@@ -20,6 +22,7 @@ export function App() {
           <Imc />
         </Route>
       </Switch>
+      </Main>
       <Footer />
     </Router>    
   );

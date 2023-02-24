@@ -2,12 +2,29 @@ import styled from 'styled-components';
 
 export const Header = styled.ul`
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;  
     list-style: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
 `;
 
-export const Foot = styled.h1`
+export const Foot = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
     color: blue;
+    margin-bottom: 10vh;
+    text-align: center;
 `;
+
+export const Main = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+    border: solid 1px black
+
+`
