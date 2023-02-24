@@ -4,23 +4,21 @@ export function Faturamento() {
         <div>
             <p>Densidade de origem</p>
             <input type="text" id="dens_orig" placeholder="0.000"></input>
+            <p>Densidade de destino</p>
+            <input type="text" id="dens_orig" placeholder="0.000"></input>
+            <p>Peso origem</p>
+            <input type="number" id="peso_orig" placeholder="Kg"></input>
+            <p>Peso destino</p>
+            <input type="number" id="peso_dest" placeholder="Kg"></input>
+            <p></p>
+            <button id="btn_calc" type="button">Calcular</button>
         </div>
       </form>
        
        /* <form>
-            <p>Densidade origem</p>
-            <input type="number" id="dens_orig" placeholder="0.000">
+            
 
-            <p>Densidade destino</p>
-            <input type="number" id="dens_dest" placeholder="0.000">
-
-            <p>Peso origem</p>
-            <input type="number" id="peso_orig" placeholder="Kg">
-
-            <p>Peso destino</p>
-            <input type="number" id="peso_dest" placeholder="Kg">
-            <p></p>
-            <button id="btn_calc" type="button">Calcular</button>
+            
 
             <p>Peso destino / Densidade destino</p>
             <input type="text" id="pDest_dDest">
