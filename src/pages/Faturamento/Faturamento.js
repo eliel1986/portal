@@ -1,9 +1,11 @@
 export function Faturamento() {
     return (
       
-      
+      <div>
+        <h1>teste</h1>
+      </div>
        
-        <form>
+       /* <form>
             <p>Densidade origem</p>
             <input type="number" id="dens_orig" placeholder="0.000">
 
@@ -42,7 +44,7 @@ export function Faturamento() {
             <button id="clean" type="reset">Limpar</button>
 
             <a href="../index.html"><button type="button" >Voltar</button></a>
-        </form>
+        </form> */
     
     );
   }
