@@ -12,6 +12,8 @@ export function Faturamento() {
             <input type="number" id="peso_dest" placeholder="Kg"></input>
             <p></p>
             <button id="btn_calc" type="button">Calcular</button>
+
+            
         </div>
       </form>
        
