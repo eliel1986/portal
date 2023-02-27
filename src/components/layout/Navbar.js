@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Faturamento } from "../../pages/Faturamento/Faturamento.js";
 import { Header } from './styles.js'
 
 export function Navbar() {
