@@ -1,6 +1,9 @@
-export function Faturamento() {
+import { Global } from "./styles";
+
+export function Peso() {
   return (
     <form>
+      <Global>
       <div>
         <p>Densidade de origem</p>
         <input type="text" id="dens_orig" placeholder="0.000"></input>
@@ -31,9 +34,10 @@ export function Faturamento() {
 
         <p>Resultado:</p>
         <input type="text" id="result" ></input>
-
+        <p></p>
         <button id="clean" type="reset" onClick={reset}>Limpar</button>
       </div>
+      </Global>
     </form>
 
   )
