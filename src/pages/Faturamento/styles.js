@@ -39,11 +39,4 @@ button:hover {
     background-color: cornflowerblue;
 }
 
-/* button#op {
-    margin-bottom: 5px;
-}    */
-
-
-
-
 `
