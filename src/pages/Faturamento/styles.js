@@ -76,6 +76,8 @@ export const Global = styled.body`
 
 .box-peso {
     background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+    height: 50px;
     padding: 5px;
     color: white;  
     border: 1px solid black  
