@@ -17,25 +17,9 @@ export function Peso() {
         <button id="btn_calc" type="button" onClick={calculo}>Calcular</button>
 
 
-        <p>Peso destino / Densidade destino</p>
-        <input type="text" id="pDest_dDest"></input>
-
-        <p>Peso destino / Densidade origem</p>
-        <input type="text" id="pDest_dOrig"></input>
-
-        <p>Diferença densidades</p>
-        <input type="text" id="dif_Dens"></input>
-
-        <p>Peso destino - Peso origem</p>
-        <input type="text" id="pDest_pOrig"></input>
-
-        <p>Diferença PESOS / Dens origem</p>
-        <input type="text" id="dif_Peso"></input>
-
-        <p>Resultado:</p>
-        <input type="text" id="result" ></input>
-        <p></p>
-        <button id="clean" type="reset" onClick={reset}>Limpar</button>
+       
+        /*<p></p>
+        <button id="clean" type="reset" onClick={reset}>Limpar</button>*/
       </div>
       </Global>
     </form>
@@ -107,6 +91,30 @@ export function Peso() {
       else {
         document.getElementById('result').style.backgroundColor = 'green';
       }
+
+      <form>
+        <Global>
+      <div className="box-peso"></div>
+      <p>Peso destino / Densidade destino</p>
+        <input type="text" id="pDest_dDest"></input>
+
+        <p>Peso destino / Densidade origem</p>
+        <input type="text" id="pDest_dOrig"></input>
+
+        <p>Diferença densidades</p>
+        <input type="text" id="dif_Dens"></input>
+
+        <p>Peso destino - Peso origem</p>
+        <input type="text" id="pDest_pOrig"></input>
+
+        <p>Diferença PESOS / Dens origem</p>
+        <input type="text" id="dif_Peso"></input>
+
+        <p>Resultado:</p>
+        <input type="text" id="result" ></input>
+</Global>
+        </form>
+
     }
     else {
       document.getElementById('result').value = 'Preencha todos os dados!!!';
