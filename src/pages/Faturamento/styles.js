@@ -4,6 +4,7 @@ export const Global = styled.body`
 
 .box-peso {
     background-color: rgba(0, 0, 0, 0.6);
+    height: 80%;
     padding: 5px;
     color: white;  
     border: 1px solid black  
