@@ -11,7 +11,7 @@ export const Global = styled.body`
 
 p {
     margin: 4px;
-    font-size: 12px;
+    font-size: 14px;
     
 }
 
@@ -19,7 +19,7 @@ input {
     text-align: center;
      padding: 2px;
     outline: none;
-    font-size: 12px; 
+    font-size: 14px; 
 }
 
 button {
