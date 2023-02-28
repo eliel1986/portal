@@ -96,6 +96,7 @@ input {
 
 button {
     background-color: slateblue;
+    width: 100px;
     margin-top: 8px;
     margin-bottom: 8px;
     padding: 5px;
