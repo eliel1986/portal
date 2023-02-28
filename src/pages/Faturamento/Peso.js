@@ -18,8 +18,6 @@ export function Peso() {
 
 
        
-        /*<p></p>
-        <button id="clean" type="reset" onClick={reset}>Limpar</button>*/
       </div>
       </Global>
     </form>
