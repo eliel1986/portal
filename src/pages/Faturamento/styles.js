@@ -72,12 +72,14 @@ export const Global = styled.body`
         width: 130px;
     }
 }
+*/
 
-.box {
+.box-peso {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 5px;
-    color: white;    
-} */
+    color: white;  
+    border: 1px solid black  
+} 
 
 p {
     margin: 4px;

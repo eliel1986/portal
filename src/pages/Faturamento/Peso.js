@@ -4,7 +4,7 @@ export function Peso() {
   return (
     <form>
       <Global>
-      <div>
+      <div className="box-peso">
         <p>Densidade de origem</p>
         <input type="text" id="dens_orig" placeholder="0.000"></input>
         <p>Densidade de destino</p>
