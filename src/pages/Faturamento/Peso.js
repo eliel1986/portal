@@ -4,7 +4,7 @@ export function Peso() {
   return (
     <form>
       <Global>
-      <div className="box-peso1">
+      <div className="box-pesoa">
         <p>Densidade de origem</p>
         <input type="text" id="dens_orig" placeholder="0.000"></input>
         <p>Densidade de destino</p>
@@ -17,8 +17,33 @@ export function Peso() {
         <button id="btn_calc" type="button" onClick={calculo}>Calcular</button>
 
 
+        </div>
+
+        <div className="box-peso">
+      <p>Peso destino / Densidade destino</p>
+        <input type="text" id="pDest_dDest"></input>
+
+        <p>Peso destino / Densidade origem</p>
+        <input type="text" id="pDest_dOrig"></input>
+
+        <p>Diferença densidades</p>
+        <input type="text" id="dif_Dens"></input>
+
+        <p>Peso destino - Peso origem</p>
+        <input type="text" id="pDest_pOrig"></input>
+
+        <p>Diferença PESOS / Dens origem</p>
+        <input type="text" id="dif_Peso"></input>
+
+        <p>Resultado:</p>
+        <input type="text" id="result" ></input>
+        </div>
+
+     
+
+
        
-      </div>
+      
       </Global>
     </form>
 
@@ -89,44 +114,11 @@ export function Peso() {
       else {
         document.getElementById('result').style.backgroundColor = 'green';
       }
-
-
-      if(display == "none")
-            document.getElementById(box-peso).style.display = 'block';
-        else
-            document.getElementById(box-peso1).style.display = 'none';
-    }
-
-
-      <form>
-        <Global>
-      <div className="box-peso">
-      <p>Peso destino / Densidade destino</p>
-        <input type="text" id="pDest_dDest"></input>
-
-        <p>Peso destino / Densidade origem</p>
-        <input type="text" id="pDest_dOrig"></input>
-
-        <p>Diferença densidades</p>
-        <input type="text" id="dif_Dens"></input>
-
-        <p>Peso destino - Peso origem</p>
-        <input type="text" id="pDest_pOrig"></input>
-
-        <p>Diferença PESOS / Dens origem</p>
-        <input type="text" id="dif_Peso"></input>
-
-        <p>Resultado:</p>
-        <input type="text" id="result" ></input>
-        </div>
-</Global>
-        </form>
-
     }
     else {
       document.getElementById('result').value = 'Preencha todos os dados!!!';
-
-      document.getElementById('result').style.backgroundColor = 'yellow';
+  
+  document.getElementById('result').style.backgroundColor = 'yellow';
     }
   }
 }

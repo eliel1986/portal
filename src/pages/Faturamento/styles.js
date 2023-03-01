@@ -10,7 +10,7 @@ export const Global = styled.body`
     border: 1px solid black  
 } 
 
-.box-peso1 {
+.box-pesoa {
     display: flex;
     justify-content: center
     background-color: rgba(0, 0, 0, 0.6);
