@@ -4,7 +4,7 @@ export function Peso() {
   return (
     <form>
       <Global>
-      <div className="box-peso">
+      <div className="box-peso1">
         <p>Densidade de origem</p>
         <input type="text" id="dens_orig" placeholder="0.000"></input>
         <p>Densidade de destino</p>
@@ -94,13 +94,13 @@ export function Peso() {
       if(display == "none")
             document.getElementById(box-peso).style.display = 'block';
         else
-            document.getElementById(box-peso).style.display = 'none';
+            document.getElementById(box-peso1).style.display = 'none';
     }
 
 
       <form>
         <Global>
-      <div className="box-peso1">
+      <div className="box-peso">
       <p>Peso destino / Densidade destino</p>
         <input type="text" id="pDest_dDest"></input>
 

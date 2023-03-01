@@ -10,6 +10,16 @@ export const Global = styled.body`
     border: 1px solid black  
 } 
 
+.box-peso1 {
+    display: flex;
+    justify-content: center
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 70vh;
+    padding: 5px;
+    color: white;  
+    border: 1px solid black  
+} 
+
 p {
     margin: 4px;
     font-size: 14px;
