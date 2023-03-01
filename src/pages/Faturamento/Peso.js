@@ -90,9 +90,17 @@ export function Peso() {
         document.getElementById('result').style.backgroundColor = 'green';
       }
 
+
+      if(display == "none")
+            document.getElementById(box-peso).style.display = 'block';
+        else
+            document.getElementById(box-peso).style.display = 'none';
+    }
+
+
       <form>
         <Global>
-      <div className="box-peso">
+      <div className="box-peso1">
       <p>Peso destino / Densidade destino</p>
         <input type="text" id="pDest_dDest"></input>
 
