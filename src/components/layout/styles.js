@@ -25,6 +25,5 @@ export const Main = styled.div`
     height: 80vh;
     margin: auto;
     text-align: center;
-    border: solid 1px black
 
 `
