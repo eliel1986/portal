@@ -13,6 +13,9 @@ export function Navbar() {
                 <li>
                     <Link to="/imc">IMC</Link>
                 </li>
+                <li>
+                    <Link to="/accuload">AccuLoad</Link>
+                </li>
         </Header>
     );
 }
